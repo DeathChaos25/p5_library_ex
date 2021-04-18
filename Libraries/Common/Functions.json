@@ -4387,6 +4387,11 @@
         "Type": "PartyMember",
         "Name": "param1",
         "Description": ""
+      },
+      {
+        "Type": "PersonaID",
+        "Name": "param2",
+        "Description": ""
       }
     ]
   },
