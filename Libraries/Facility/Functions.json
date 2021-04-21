@@ -1,8 +1,8 @@
 [
   {
     "Index": "0x4000",
-    "ReturnType": "void",
-    "Name": "CALL_WEAPON_SHOP",
+    "ReturnType": "int",
+    "Name": "GET_ENCOUNTER_ID",
     "Description": "",
     "Parameters": [
     ]

@@ -1678,11 +1678,6 @@
     "Name": "AI_TAR_DOWN",
     "Description": "",
     "Parameters": [
-      {
-        "Type": "int",
-        "Name": "param1",
-        "Description": ""
-      }
     ]
   },
   {
@@ -3372,13 +3367,18 @@
   {
     "Index": "0x20f0",
     "ReturnType": "void",
-    "Name": "AI_SET_ASSISTSKILL_MODE",
+    "Name": "AI_ACT_PERSONA_SKILL",
     "Description": "",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": "Unknown type; assumed int."
+        "Description": ""
+      },
+      {
+        "Type": "BattleSkill",
+        "Name": "skill",
+        "Description": ""
       }
     ]
   },

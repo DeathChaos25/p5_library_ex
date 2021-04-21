@@ -6155,8 +6155,8 @@
       },
       {
         "Type": "int",
-        "Name": "param3",
-        "Description": ""
+        "Name": "messageId",
+        "Description": "Id of the message to display."
       },
       {
         "Type": "int",
@@ -6183,8 +6183,8 @@
       },
       {
         "Type": "int",
-        "Name": "param3",
-        "Description": ""
+        "Name": "messageId",
+        "Description": "Id of the message to display."
       },
       {
         "Type": "int",
