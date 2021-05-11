@@ -1,0 +1,81 @@
+[
+  {
+    "Index": "0x6000",
+    "ReturnType": "void",
+    "Name": "EX_PRINTF",
+    "Description": "",
+    "Semantic": "Variadic",
+    "Parameters": [
+      {
+        "Type": "string",
+        "Name": "value",
+        "Description": "Value to print."
+      }
+    ]
+  },
+  {
+    "Index": "0x6001",
+    "ReturnType": "void",
+    "Name": "AI_ACT_PERSONA_SKILL",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PersonaID",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "BattleSkill",
+        "Name": "skill",
+        "Description": "Unknown type; assumed int."
+      }
+    ]
+  },
+  {
+    "Index": "0x6002",
+    "ReturnType": "int",
+    "Name": "GET_ENCOUNTER_ID",
+    "Description": "",
+    "Parameters": [
+    ]
+  },
+  {
+    "Index": "0x6003",
+    "ReturnType": "int",
+    "Name": "GET_EQUIPPED_PERSONA",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      }
+    ]
+  },
+  {
+    "Index": "0x6004",
+    "ReturnType": "void",
+    "Name": "PERSONA_EVOLUTION2",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "PersonaID",
+        "Name": "personaID",
+        "Description": ""
+      }
+    ]
+  },
+  {
+    "Index": "0x6005",
+    "ReturnType": "int",
+    "Name": "GET_SEQ_ID",
+    "Description": "",
+    "Parameters": [
+    ]
+  }
+]

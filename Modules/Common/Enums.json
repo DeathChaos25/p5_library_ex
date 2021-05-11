@@ -41,27 +41,27 @@
       {
         "Name": "Left",
         "Value": 7,
-        "Description": "The dpad down button."
-      },
-      {
-        "Name": "L1",
-        "Value": 8,
-        "Description": "The L1 button."
-      },
-      {
-        "Name": "R1",
-        "Value": 9,
-        "Description": "The R1 button."
+        "Description": "The dpad Left button."
       },
       {
         "Name": "L2",
-        "Value": 10,
+        "Value": 8,
         "Description": "The L2 button."
       },
       {
         "Name": "R2",
-        "Value": 11,
+        "Value": 9,
         "Description": "The R2 button."
+      },
+      {
+        "Name": "L1",
+        "Value": 10,
+        "Description": "The L1 button."
+      },
+      {
+        "Name": "R1",
+        "Value": 11,
+        "Description": "The R1 button."
       },
       {
         "Name": "Triangle",
