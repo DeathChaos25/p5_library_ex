@@ -77,5 +77,18 @@
     "Description": "",
     "Parameters": [
     ]
+  },
+  {
+    "Index": "0x6007",
+    "ReturnType": "void",
+    "Name": "PRELOAD_PERSONA",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PersonaID",
+        "Name": "param1",
+        "Description": ""
+      }
+    ]
   }
 ]
