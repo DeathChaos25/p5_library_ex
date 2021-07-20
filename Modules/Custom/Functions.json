@@ -79,13 +79,36 @@
     ]
   },
   {
-    "Index": "0x6007",
-    "ReturnType": "void",
-    "Name": "PRELOAD_PERSONA",
+    "Index": "0x6006",
+    "ReturnType": "int",
+    "Name": "GET_LEARNABLE_SKILL",
     "Description": "",
     "Parameters": [
       {
-        "Type": "PersonaID",
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "SkillSlotID",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "targetLv",
+        "Description": ""
+      }
+    ]
+  },
+   {
+    "Index": "0x6007",
+    "ReturnType": "int",
+    "Name": "GET_PLAYER_LV",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
         "Name": "param1",
         "Description": ""
       }
