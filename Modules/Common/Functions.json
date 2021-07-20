@@ -70,6 +70,12 @@
         "Name": "messageId",
         "Description": "Id of the message to display.",
         "Semantic": "MsgId"
+      },
+      {
+        "Type": "int",
+        "Name": "param2",
+        "Description": "Unknown type; assumed int.",
+        "DefaultValue": "0"
       }
     ]
   },
@@ -511,7 +517,7 @@
         "Type": "int",
         "Name": "messageId",
         "Description": "",
-        "Semantic": "MsgId"
+        "Semantic": "SelId"
       }
     ]
   },
