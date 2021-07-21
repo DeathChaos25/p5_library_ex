@@ -13,6 +13,7 @@
    - int GET_SEQ_ID( void ) -- returns the current sequence ID the game is runnning on
    - int GET_LEARNABLE_SKILL( int PartyMember, int SkillSlotID, int targetLv ) -- returns the skill ID on the given slot from a party member's PERSONA tbl entry, will return a skill ID if the skill is higher than the party member's current level but lower/same level as the target level (note: Joker excluded for obvious reasons)
    - int GET_PLAYER_LV ( int PartyMember ) -- returns a party member's current level
+   - void SET_TACTICS_STATE ( int PartyMember, int TacticsState ) -- sets a party member's tactics state (Joker included) to the target value
 
 
  Notes:
