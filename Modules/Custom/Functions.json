@@ -101,7 +101,7 @@
       }
     ]
   },
-   {
+  {
     "Index": "0x6007",
     "ReturnType": "int",
     "Name": "GET_PLAYER_LV",
@@ -110,6 +110,24 @@
       {
         "Type": "PartyMember",
         "Name": "param1",
+        "Description": ""
+      }
+    ]
+  },
+  {
+    "Index": "0x6008",
+    "ReturnType": "void",
+    "Name": "SET_TACTICS_STATE",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "TacticState",
+        "Name": "param2",
         "Description": ""
       }
     ]
