@@ -1,5 +1,5 @@
 # p5_library_ex
- P5 Library for TGE's atlusscriptcompiler with stubbed functions replaced with custom ones for use with expanded flowscript functions patch.  
+ P5 Library for TGE's atlusscriptcompiler with stubbed functions replaced with custom ones for use with Persona 5 EX mod.  
    
    New Functions:  
      
