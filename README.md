@@ -19,7 +19,7 @@
  Notes:
   - GET_LEARNABLE_SKILL gets the learnset from the actual persona tbl section of party member personas, meaning this is NOT checking the learnset stored in the save, meaning its mod compatible, if you have a custom learnset it'll just work, this also means they can learn skills if you updated the skillset in the tbl but used an existing save that has old learnset
 
- [Here](https://cdn.discordapp.com/attachments/681270126657798295/867081861004263434/LevelUpPlayerCharacter.c) is a useful flowscript function/macro I have made to level up party members while also obtaining any skills they should have naturally gained
+ [Here](https://cdn.discordapp.com/attachments/681270126657798295/877766845300621322/LevelUpPlayerCharacter.c) is a useful flowscript function/macro I have made to level up party members while also obtaining any skills they should have naturally gained
  
  Exmaple of usage (within mod menu) below:  
  ![screenshot1](https://cdn.discordapp.com/attachments/681270126657798295/867081752996478976/unknown.png)  
