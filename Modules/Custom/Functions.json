@@ -159,5 +159,18 @@
         "Description": ""
       }
     ]
+  },
+  {
+    "Index": "0x600A",
+    "ReturnType": "void",
+    "Name": "CLEAR_PERSONA_SKILLS",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      }
+    ]
   }
 ]
