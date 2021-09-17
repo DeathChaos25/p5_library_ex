@@ -14,6 +14,9 @@
    - int GET_LEARNABLE_SKILL( int PartyMember, int SkillSlotID, int targetLv ) -- returns the skill ID on the given slot from a party member's PERSONA tbl entry, will return a skill ID if the skill is higher than the party member's current level but lower/same level as the target level (note: Joker excluded for obvious reasons)
    - int GET_PLAYER_LV ( int PartyMember ) -- returns a party member's current level
    - void SET_TACTICS_STATE ( int PartyMember, int TacticsState ) -- sets a party member's tactics state (Joker included) to the target value
+   - void AI_SET_ENID_TARGETABLE_STATE( int enemyID, bool targetableState ) -- use from encounter script, toggles enemy's ability to be targetted by players
+   - void AI_SET_TARGETABLE_STATE( bool targetableState ) -- use inside enemy BF script, toggles enemy's own ability to be targetted by players
+   - void AI_ACT_SUMMON_UNITS( int EnemyID, int EnemyID, int EnemyID, int EnemyID, int customBED_subID ) -- use inside enemy BF script, summons target amount of enemies, use id 0 to not summon an enemy on selected slot, use 0 to use normal summon visual effect (note: exceeding 5 total enemies in a battle will crash the game!)
 
 
  Notes:
