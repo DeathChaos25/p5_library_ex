@@ -393,5 +393,44 @@
         "Description": ""
       }
     ]
+  },
+  {
+    "Index": "0x6017",
+    "ReturnType": "void",
+    "Name": "SET_ENEMY_SKILL",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "enemyID",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "SkillSlot",
+        "Description": ""
+      },
+      {
+        "Type": "BattleSkill",
+        "Name": "skill",
+        "Description": "Unknown type; assumed int."
+      }
+    ]
+  },
+  {
+    "Index": "0x6018",
+    "ReturnType": "void",
+    "Name": "PREVENT_PLAYER_LOSS",
+    "Description": "",
+    "Parameters": [
+    ]
+  },
+  {
+    "Index": "0x6019",
+    "ReturnType": "void",
+    "Name": "FORCE_LOAD_DLC_BGM",
+    "Description": "",
+    "Parameters": [
+    ]
   }
 ]
