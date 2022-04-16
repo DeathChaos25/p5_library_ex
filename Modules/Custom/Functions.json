@@ -432,5 +432,18 @@
     "Description": "",
     "Parameters": [
     ]
+  },
+  {
+    "Index": "0x601A",
+    "ReturnType": "void",
+    "Name": "RESET_PARTY_MEMBER_PERSONA",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "PartyMember",
+        "Name": "param1",
+        "Description": ""
+      }
+    ]
   }
 ]
