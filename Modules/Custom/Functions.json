@@ -445,5 +445,13 @@
         "Description": ""
       }
     ]
+  },
+  {
+    "Index": "0x601B",
+    "ReturnType": "void",
+    "Name": "SET_CHALLENGE_BATTLE",
+    "Description": "",
+    "Parameters": [
+    ]
   }
 ]
